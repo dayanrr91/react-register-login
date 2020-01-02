@@ -1,0 +1,389 @@
+.line-breaker {
+    display: inline-flex;
+    margin-bottom: 20px;
+    position: relative;
+    left: 48px;
+}
+
+@media only screen and (min-width : 300px) {
+
+    .policy-register {
+        width: 214px;
+        position: relative;
+        left: 67px;
+        text-align: left;
+        font-size: 0.7em;
+    }
+
+    .loginscreen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+        background-color: var(--color-gray);
+        ;
+    }
+
+    .login-user-password {
+        padding: 5px;
+        background-color: var(--white-color);
+        margin-bottom: 20px;
+        border-radius: 12px;
+        width: 327px;
+    }
+
+    .register-user-password {
+        border: 1px solid #000;
+        padding: 60px;
+        background-color: var(--white-color);
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+
+    .register-user-password {
+        border: 1px solid #000;
+        padding: 60px;
+        background-color: var(--white-color);
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+
+    .login-user-password-submit {
+        display: flex;
+        background-color: #1aca79;
+        border-radius: 40px;
+        margin-bottom: 25px;
+        width: 239px;
+        position: relative;
+        left: 39px;
+        height: 45px;
+    }
+
+    .register-user-password-fields {
+        margin-bottom: 20px;
+    }
+
+    .login-button {
+        margin: 15;
+        width: 256px;
+        color: #FFF;
+    }
+
+        .login-button span {
+            font-weight: bold !important;
+        }
+
+    .margin-15 {
+        margin: 15px;
+    }
+
+    .login-user-password-fields {
+        display: inline-grid;
+        width: 259px;
+        position: relative;
+        left: 18px;
+    }
+
+    .login-full-container {
+        width: 355px;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+        top: 20px;
+    }
+
+    .inicie-sesion-container {
+        text-align: center;
+        position: relative;
+        right: 10px;
+    }
+
+        .inicie-sesion-container p {
+            font-size: 2em;
+        }
+
+    .login-user-password-submit button {
+        text-align: center;
+        width: 100%;
+        outline: none !important;
+    }
+
+        .login-user-password-submit button span.MuiButton-label-54 {
+            justify-content: flex-end !important;
+            text-align: center;
+            position: relative;
+            right: 61px;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+    .login-input-field {
+        position: relative;
+        left: 25px;
+    }
+
+        .login-input-field i {
+            position: relative;
+            bottom: 10px;
+            right: 5px;
+            vertical-align: bottom;
+        }
+
+        .login-input-field .MuiInputBase-root-36.MuiInput-root-23.MuiInput-underline-27.MuiInputBase-formControl-37.MuiInput-formControl-24 {
+            width: 208px;
+        }
+
+    .line-breaker-sub-1 {
+        letter-spacing: -2.65px;
+        margin-right: 6px;
+    }
+
+    .line-breaker-sub-3 {
+        margin-left: 6px;
+        letter-spacing: -2.65px;
+    }
+
+    .register-with-your-credentials {
+        position: relative;
+        left: 15px;
+    }
+}
+
+
+@media only screen and (min-width : 600px) {
+
+
+    .policy-register {
+        width: 268px;
+    }
+
+    .loginscreen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-align: center;
+        min-height: 100vh;
+        background-color: var(--color-gray);
+        ;
+    }
+
+    .login-user-password {
+        padding: 9px 60px 14px 60px;
+        background-color: var(--white-color);
+        margin-bottom: 20px;
+        border-radius: 12px;
+        width: 72%;
+    }
+
+    .register-user-password {
+        border: 1px solid #000;
+        padding: 60px;
+        background-color: var(--white-color);
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+
+    .register-user-password {
+        border: 1px solid #000;
+        padding: 60px;
+        background-color: var(--white-color);
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+
+    .login-user-password-submit {
+        display: flex;
+        background-color: #1aca79;
+        border-radius: 40px;
+        margin-bottom: 25px;
+        width: 300px;
+        position: relative;
+        left: 42px;
+        height: 45px;
+    }
+
+    .register-user-password-fields {
+        margin-bottom: 20px;
+    }
+
+    .login-button {
+        margin: 15;
+        width: 256px;
+        color: #FFF;
+    }
+
+        .login-button span {
+            font-weight: bold !important;
+        }
+
+    .margin-15 {
+        margin: 15px;
+    }
+
+    .login-user-password-fields {
+        display: inline-grid;
+        width: 409px;
+    }
+
+    .login-full-container {
+        width: 550px;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+        top: 10px;
+    }
+
+    .inicie-sesion-container {
+        text-align: center;
+        position: relative;
+        right: -6px;
+    }
+
+        .inicie-sesion-container p {
+            font-size: 2em;
+        }
+
+    .login-user-password-submit button {
+        text-align: center;
+        width: 100%;
+    }
+
+        .login-user-password-submit button span.MuiButton-label-54 {
+            justify-content: flex-end !important;
+            text-align: center;
+            position: relative;
+            right: 90px;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+    .login-input-field {
+        position: relative;
+        left: 25px;
+    }
+
+        .login-input-field i {
+            position: relative;
+            bottom: 10px;
+            right: 5px;
+            vertical-align: bottom;
+        }
+
+        .top-1px{
+            bottom: 1px !important;
+        }
+
+
+        .login-input-field div div {
+            width: 270px !important;
+        }
+
+    .line-breaker-sub-1 {
+        letter-spacing: -2px;
+        margin-right: 6px;
+    }
+
+    .line-breaker-sub-3 {
+        margin-left: 6px;
+        letter-spacing: -2px;
+    }
+
+    .register-with-your-credentials {
+        position: relative;
+        left: 51px;
+    }
+}
+
+.login-with-your-credentials span {
+    position: relative;
+    left: 40px;
+}
+
+.alert-mail-input {
+    position: relative;
+    left: 25px;
+    color: rgba(233,50,10,1);
+    font-style: italic;
+    margin-bottom: -25px;
+}
+
+
+.alert-mail-warming {
+    position: relative;
+    right: 83px;
+    bottom: 25px;
+    text-align: right;
+    color: rgba(233,50,10,1);
+}
+
+.alert-password-warming {
+    position: relative;
+    right: 83px;
+    bottom: 46px;
+    text-align: right;
+    color: rgba(233,50,10,1);
+}
+
+.alert-repassword-warming {
+    position: relative;
+    right: 83px;
+    bottom: 25px;
+    text-align: right;
+    color: rgba(233,50,10,1);
+}
+
+.password-invalid-container {
+    width: 275px;
+}
+
+.facebook-content-login span button i {
+    background-color: #FFF;
+    color: #3b5998;
+    width: 20px;
+    height: 20px;
+    font-size: 1.2em;
+    position: relative;
+    top: 1px;
+    padding-top: 3px;
+    right: 5px;
+}
+
+.facebook-content-login span button:focus {
+    outline: none !important;
+}
+
+button.login-button:disabled,
+button.login-button[disabled] {
+    cursor: not-allowed;
+    pointer-events: visible;
+    color: rgba(255,255,255,.5);
+}
+
+.register-button-like-anchor {
+    background: none !important;
+    color: rgb(47, 69, 192);
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    cursor: pointer;
+}
+
+    .register-button-like-anchor:hover {
+        background: none !important;
+        color: inherit;
+        border: none;
+        padding: 0 !important;
+        font: inherit;
+        border-bottom: 1px solid #444;
+        cursor: pointer;
+    }
+
+    .register-button-like-anchor:focus {
+        outline: none !important;
+    }

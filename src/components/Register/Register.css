@@ -1,0 +1,52 @@
+.login-redirect {
+    text-align: center;
+}
+
+.iniciar-sesion-in-register {
+    font-weight: bold;
+}
+
+.register-username-not-check {
+    top: 0 !important;
+}
+.top-9px
+.register-username-check {
+    top: 0 !important;
+}
+
+.register-email-check {
+    top: 4px !important;
+}
+
+.register-email-not-check {
+    top: 0 !important;
+}
+
+.register-validation-message-true {
+    margin-left: 3px;
+    position: relative;
+    top: 2px;
+    color: green !important;
+}
+
+.register-validation-message-false {
+    margin-left: 3px;
+    position: relative;
+    top: 2px;
+    color: rgba(0,0,0,.7) !important;
+}
+
+.top-9px {
+    position: relative;
+    top: 10px;
+}
+
+.top-4px {
+    position: relative;
+    top: -4px;
+}
+
+.top-3px {
+    position: relative;
+    top: -3px;
+}

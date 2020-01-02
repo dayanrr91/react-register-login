@@ -1,0 +1,80 @@
+@media only screen and (min-width : 300px) {
+
+    .facebook-content-login span button {
+        border-radius: 40px !important;
+        width: 75%;
+        border: none;
+    }
+
+    .facebook-content-login {
+        text-align: center;
+        width: 324px;
+        position: relative;
+        right: 5px;
+        margin-bottom: 33px;
+    }
+
+
+        .facebook-content-login button {
+            font-size: 0.9em;
+            height: 50px;
+            font-weight: bold;
+            border-radius: 40px !important;
+        }
+
+            .facebook-content-login button i {
+                margin-right: 5px;
+            }
+
+    .my-facebook-button-class {
+        background-color: #3b5998;
+        color: #FFF;
+    }
+
+
+    .facebook-container {
+        width: 550px;
+        position: relative;
+        text-align: left;
+        left: 34px;
+    }
+}
+
+@media only screen and (min-width : 600px) {
+
+    .facebook-content-login span button {
+        border-radius: 40px !important;
+        width: 75%;
+        border: none;
+    }
+
+    .facebook-content-login {
+        text-align: center;
+        width: 400px;
+        position: relative;
+        right: 8px;
+    }
+
+        .facebook-content-login button {
+            font-size: 0.9em;
+            height: 50px;
+            font-weight: bold;
+        }
+
+            .facebook-content-login button i {
+                margin-right: 5px;
+            }
+
+    .my-facebook-button-class {
+        background-color: #3b5998;
+        color: #FFF;
+    }
+
+
+    .facebook-container {
+        width: 550px;
+        position: relative;
+        text-align: left;
+        left: 15px;
+    }
+}

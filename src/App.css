@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+:root {
+  --white-color: #FFF;
+  --main-blue: #133584;
+  --dark-blue: #0D245A;
+  --color-gray: #F1F1F1;
+  --light-green: #39B2BF;
+  --dark-green: #003b49;
+  --red-alert: rgba(233,50,10,1);
+  --blue-hover: rgba(31, 128, 167, 1);
+  --gray-back: #F1F1F1;
+  --dark-red: rgb(192, 57, 57);
+  --header-site: #283149;
+  --blue-join: rgb(52,96,182);
+  --create-red: rgb(208,40,49);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--gray-back);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.div-buttons {
+  width: 100%;
+  text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.warning-icon-color {
+  color: var(--red-alert);
 }
 
-.App-link {
-  color: #61dafb;
+.top-6-px {
+  position: relative;
+  top: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom-6-px {
+  position: relative;
+  bottom: 6px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.display-inline-flex {
+  display: inline-flex;
+}
+
+.remove-outline-focus:focus, 
+.create-ligue-submit button:focus, 
+.create-join-ligue-button-container button:focus, 
+.save-button button:focus, 
+.create-ligue-back button:focus {
+  outline: none !important;
+}
+
+.validation-line{
+  display: inline-flex;
 }
